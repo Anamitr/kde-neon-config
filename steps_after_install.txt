@@ -9,14 +9,18 @@
 2. Turn on Night Light
 3. Terminal:
 	3.1 Install guake terminal
-	3.2 Configure guake terminal
-	3.3 Configure default terminal - TODO
+	3.2 Configure guake terminal - TODO
+	3.3 Configure default terminal
 4. Git:
 	4.1 Install git, git-gui
 	4.2 Configure identity
 	4.3 Configure ssh keys
 5. Plasma:
-	5.1 Configure Digital Clock
+	5.1 Configure shortcuts scheme (Import)
+	5.2 Configure activities and virutal desktops
+	5.3 Configure Digital Clock
+6. Optional:
+	6.1 Set grub wait time
 (Laptop)
 	- touchpad scrollings direction
-	- touchpad double click
+	- touchpad tap click
