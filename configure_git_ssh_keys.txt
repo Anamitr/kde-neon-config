@@ -1,0 +1,4 @@
+Main instruction:	https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh
+
+Use ssh key with passphrase but don't type it every time:	https://stackoverflow.com/questions/21095054/ssh-key-still-asking-for-password-and-passphrase
+Basically you should add identity using Keychain:	ssh-add -K ~/.ssh/id_rsa
