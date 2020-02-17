@@ -24,3 +24,5 @@
 (Laptop)
 	- touchpad scrollings direction
 	- touchpad tap click
+
+Check if you can install DroidCam. On my Asus VivoBook laptop I had some problems with loading modules to kernel.
