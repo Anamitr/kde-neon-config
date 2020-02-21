@@ -6,6 +6,7 @@
 	1.5 Extensions:
 		- AdBlock
 		- Grammarly
+	1.6 Set "Use Native Window" (to avoid starting on all activities)
 2. Turn on Night Light
 3. Terminal:
 	3.1 Install guake terminal
