@@ -1,0 +1,27 @@
+#Added by me
+
+#example from book
+alias d='date +%D'
+alias mypass='cat /etc/passwd'
+
+#Recommended for linux
+#Ask before overriding while moving
+alias mv='mv -i'
+alias cp='cp -i'
+alias rm='rm -i'
+
+#print directory size
+alias print_directory_size='du -sh'
+alias pds='print_directory_size'
+alias dush='print_directory_size'
+#find processes by name
+alias find_processes_by_name='ps aux | grep'
+alias psag='find_processes_by_name'
+#kill process
+alias kill_process='kill -9'
+alias kp='kill_process'
+#print formated PATH
+alias print_formated_path='echo $PATH | sed "s/:/\n/g"'
+alias ppath=`print_formated_path`
+#create file and path		# not working but worh checking out
+alias mdt='for f in "$@"; do mkdir -p "$(dirname "$f")"; done; touch "$@"'
