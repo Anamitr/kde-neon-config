@@ -1,0 +1,8 @@
+1. Create linux distro bootable drive, either with Rufus on Windows or Etcher on Linux.
+    https://rufus.ie
+    https://www.balena.io/etcher/#download
+2. When booting from usb gets stuck on loading screen then from grub press 'e' and enter nomodeset so that linux line contain 'nomodeset quiet splash'.
+    https://ubuntuforums.org/showthread.php?t=2335812
+    https://askubuntu.com/questions/38780/how-do-i-set-nomodeset-after-ive-already-installed-ubuntu/
+3. When setting partition size remember about efi partition (500 GB).
+4. After install set boot order in (BIOS/UEFI).
