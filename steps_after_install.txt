@@ -10,8 +10,8 @@
 2. Turn on Night Light
 3. Terminal:
 	3.1 Install dropdown terminal Yakuake/Guake
-	3.2 Configure drop-down terminal
-	3.3 Configure default terminal
+	3.2 Configure default and drop-down terminal (shortcuts, font size)
+	3.3 Load aliases to ~/.bashrc
 4. Git:
 	4.1 Install git, git-gui
 	4.2 Configure identity
@@ -21,10 +21,15 @@
 	5.1 Configure shortcuts scheme (Import)
 	5.2 Configure activities and virutal desktops
 	5.3 Configure Digital Clock
-6. Drive sync:
-	6.1 Install MEGA
 6. Optional:
 	6.1 Set grub wait time
+		- sudo vim /etc/default/grub
+		- edit GRUB_TIMEOUT (in seconds, 0 is no timeout)
+		- sudo update-grub - to apply the changes
+		- if doesn't work then add "GRUB_RECORDFAIL_TIMEOUT=$GRUB_TIMEOUT" to /etc/default/grub
+	6.2 Install MEGA drive sync
+	6.3 Setup login and lock screen settings
+	6.3 Setup user accounts
 (Laptop)
 	- touchpad scrollings direction
 	- touchpad tap click
