@@ -9,17 +9,20 @@
 	1.6 Set "Use Native Window" (to avoid starting on all activities)
 2. Turn on Night Light
 3. Terminal:
-	3.1 Install guake terminal
-	3.2 Configure guake terminal - TODO
+	3.1 Install dropdown terminal Yakuake/Guake
+	3.2 Configure drop-down terminal
 	3.3 Configure default terminal
 4. Git:
 	4.1 Install git, git-gui
 	4.2 Configure identity
+		https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh
 	4.3 Configure ssh keys
 5. Plasma:
 	5.1 Configure shortcuts scheme (Import)
 	5.2 Configure activities and virutal desktops
 	5.3 Configure Digital Clock
+6. Drive sync:
+	6.1 Install MEGA
 6. Optional:
 	6.1 Set grub wait time
 (Laptop)
