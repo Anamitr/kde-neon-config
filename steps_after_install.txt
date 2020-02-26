@@ -9,7 +9,7 @@
 	1.6 Set "Use Native Window" (to avoid starting on all activities)
 2. Turn on Night Light
 3. Terminal:
-	3.1 Install dropdown terminal Yakuake/Guake
+	3.1 Install dropdown terminal Yakuake/Guake, add to autostart
 	3.2 Configure default and drop-down terminal (shortcuts, font size)
 	3.3 Load aliases to ~/.bashrc
 4. Git:
@@ -19,17 +19,28 @@
 	4.3 Configure ssh keys
 5. Plasma:
 	5.1 Configure shortcuts scheme (Import)
+	    If Meta key launching Application Launcher stops working then restarting os should help.
 	5.2 Configure activities and virutal desktops
 	5.3 Configure Digital Clock
-6. Optional:
-	6.1 Set grub wait time
+6. Synaptic:
+	6.1 Install Synaptic
+	6.2 Install kubuntu driver manager
+7. Optional:
+	7.1 Set grub wait time
 		- sudo vim /etc/default/grub
 		- edit GRUB_TIMEOUT (in seconds, 0 is no timeout)
 		- sudo update-grub - to apply the changes
 		- if doesn't work then add "GRUB_RECORDFAIL_TIMEOUT=$GRUB_TIMEOUT" to /etc/default/grub
-	6.2 Install MEGA drive sync
-	6.3 Setup login and lock screen settings
-	6.3 Setup user accounts
+	7.2 Install MEGA drive sync
+	7.3 Setup login and lock screen settings
+	7.3 Setup user accounts
+		- if you want to create a passwordless guest user then refer to "Editing /etc/shadow":
+		  https://help.ubuntu.com/community/PasswordlessGuestAccount
+	7.4 Configure printer
+		- through Synaptic, search for Epson and install printer-driver-escpr
+		- while adding printer choose this driver (should display as recommended)
+		- through Synaptic, install Simple Scan
+	7.5 Fix blinking monitor (changing refresh rate)
 (Laptop)
 	- touchpad scrollings direction
 	- touchpad tap click
