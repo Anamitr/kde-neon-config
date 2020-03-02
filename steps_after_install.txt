@@ -44,5 +44,7 @@
 (Laptop)
 	- touchpad scrollings direction
 	- touchpad tap click
+Usefull links:
+	- https://averagelinuxuser.com/10-things-to-do-after-installing-kde-neon/
 
 Check if you can install DroidCam. On my Asus VivoBook laptop I had some problems with loading modules to kernel.
