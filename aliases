@@ -25,3 +25,8 @@ alias print_formated_path='echo $PATH | sed "s/:/\n/g"'
 alias ppath=`print_formated_path`
 #create file and path		# not working but worh checking out
 alias mdt='for f in "$@"; do mkdir -p "$(dirname "$f")"; done; touch "$@"'
+#extract tar
+alias extract_tar='tar -zxvf'
+alias tare='extract_tar'
+#update kde neon
+alias kde_update='pkcon refresh && pkcon update'
