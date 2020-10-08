@@ -11,22 +11,22 @@ alias cp='cp -i'
 alias rm='rm -i'
 
 #print directory size
-alias print_directory_size='du -sh'
-alias pds='print_directory_size'
-alias dush='print_directory_size'
+alias print-directory-size='du -sh'
+alias pds='print-directory-size'
+alias dush='print-directory-size'
 #find processes by name
-alias find_processes_by_name='ps aux | grep'
-alias psag='find_processes_by_name'
+alias find-processes-by-name='ps aux | grep'
+alias psag='find-processes-by-name'
 #kill process
-alias kill_process='kill -9'
-alias kp='kill_process'
+alias kill-process='kill -9'
+alias kp='kill-process'
 #print formated PATH
-alias print_formated_path='echo $PATH | sed "s/:/\n/g"'
-alias ppath=`print_formated_path`
+alias print-formated-path='echo $PATH | sed "s/:/\n/g"'
+alias ppath=`print-formated-path`
 #create file and path		# not working but worh checking out
 alias mdt='for f in "$@"; do mkdir -p "$(dirname "$f")"; done; touch "$@"'
 #extract tar
-alias extract_tar='tar -zxvf'
-alias tare='extract_tar'
+alias extract-tar='tar -zxvf'
+alias tare='extract-tar'
 #update kde neon
-alias kde_update='pkcon refresh && pkcon update'
+alias kde-update='pkcon refresh && pkcon update'
