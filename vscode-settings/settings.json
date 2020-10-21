@@ -1,0 +1,16 @@
+{
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.languageServer": "Microsoft",
+    "vim.handleKeys": {
+        "<C-w>": false,
+        "<C-f>": false,
+        "<C-v>": false,
+        "<C-r>": false,
+        "<C-b>": false,
+        "<C-a>": false,
+        "<C-c>": false
+    },
+    "terminal.integrated.inheritEnv": false,
+    "settingsSync.ignoredExtensions": []
+}
