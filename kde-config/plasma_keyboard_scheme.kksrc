@@ -1,24 +1,22 @@
 [ActivityManager][Global Shortcuts]
-switch-to-activity-47e37b27-3b6e-4c3e-8503-970ad6849d30=none
-switch-to-activity-4a1bfe5c-2bcf-49b2-808b-b7bee96250a0=none
-switch-to-activity-97e497e0-dfc7-484f-9d00-16f416f663f9=none
-switch-to-activity-c92b6e9d-3218-48c1-a453-1e4e7f1ac755=none
-
-[KDE Keyboard Layout Switcher][Global Shortcuts]
-Switch keyboard layout to Polish=none
-Switch to Next Keyboard Layout=none
+switch-to-activity-5b4ff5e6-1826-4e07-9d5e-c3efd7500b36=none
+switch-to-activity-b42c7364-f8d7-470a-bec3-c55897cd54bc=none
+switch-to-activity-f4d23013-357d-422b-9902-1d7415217f76=none
 
 [kaccess][Global Shortcuts]
 Toggle Screen Reader On and Off=Meta+Alt+S
 
-[kded5][Global Shortcuts]
+[khotkeys][Global Shortcuts]
 Disable Touchpad=Touchpad Off
 Enable Touchpad=Touchpad On
 Show System Activity=Ctrl+Esc
+Switch keyboard layout to English (US)=none
+Switch keyboard layout to Polish=none
+Switch to Next Keyboard Layout=none
 Toggle Touchpad=Touchpad Toggle
 display=Display; Meta+P
-{9b9d5a12-2030-47d9-9e45-dda59594aaca}=none
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=none
+{eff8d94b-d79f-4ac8-a549-9daccc77591a}=Ctrl+Alt+T
 
 [kmix][Global Shortcuts]
 decrease_microphone_volume=Microphone Volume Down
@@ -34,7 +32,7 @@ _launch=Alt+Space; Alt+F2; Search
 
 [ksmserver][Global Shortcuts]
 Halt Without Confirmation=Ctrl+Alt+Shift+PgDown
-Lock Session=Meta+L; ; Screensaver
+Lock Session=Meta+\\; Screensaver
 Log Out=Ctrl+Alt+Del
 Log Out Without Confirmation=Ctrl+Alt+Shift+Del
 Reboot Without Confirmation=Ctrl+Alt+Shift+PgUp
@@ -60,12 +58,12 @@ ShowDesktopGrid=Ctrl+F8
 Suspend Compositing=Alt+Shift+F12
 Switch One Desktop Down=none
 Switch One Desktop Up=none
-Switch One Desktop to the Left=Meta+Ctrl+Left
-Switch One Desktop to the Right=Meta+Ctrl+Right
-Switch Window Down=Meta+Alt+Down
-Switch Window Left=Meta+Alt+Left
-Switch Window Right=Meta+Alt+Right
-Switch Window Up=Meta+Alt+Up
+Switch One Desktop to the Left=Meta+Ctrl+Left; Meta+Ctrl+H
+Switch One Desktop to the Right=Meta+Ctrl+Right; Meta+Ctrl+L
+Switch Window Down=Meta+Alt+Down;\s
+Switch Window Left=Meta+Alt+Left; Meta+Alt+H
+Switch Window Right=Meta+Alt+Right; Meta+Alt+L
+Switch Window Up=; Meta+Alt+Up
 Switch to Desktop 1=Ctrl+F1
 Switch to Desktop 10=none
 Switch to Desktop 11=none
@@ -119,10 +117,10 @@ Window Fullscreen=none
 Window Grow Horizontal=none
 Window Grow Vertical=none
 Window Lower=none
-Window Maximize=Meta+Up
+Window Maximize=Meta+K; Meta+Up
 Window Maximize Horizontal=none
 Window Maximize Vertical=none
-Window Minimize=Meta+Down
+Window Minimize=Meta+J; Meta+Down
 Window Move=none
 Window No Border=none
 Window On All Desktops=none
@@ -138,8 +136,8 @@ Window Pack Up=none
 Window Quick Tile Bottom=Meta+PgDown
 Window Quick Tile Bottom Left=none
 Window Quick Tile Bottom Right=none
-Window Quick Tile Left=Meta+Left
-Window Quick Tile Right=Meta+Right
+Window Quick Tile Left=Meta+Left; Meta+H
+Window Quick Tile Right=Meta+L; Meta+Right
 Window Quick Tile Top=Meta+PgUp
 Window Quick Tile Top Left=none
 Window Quick Tile Top Right=none
@@ -211,6 +209,7 @@ Decrease Screen Brightness=Monitor Brightness Down
 Hibernate=Hibernate
 Increase Keyboard Brightness=Keyboard Brightness Up
 Increase Screen Brightness=Monitor Brightness Up
+PowerDown=Power Down
 PowerOff=Power Off
 Sleep=Sleep
 Toggle Keyboard Backlight=Keyboard Light On/Off
@@ -227,7 +226,7 @@ activate task manager entry 6=Meta+6
 activate task manager entry 7=Meta+7
 activate task manager entry 8=Meta+8
 activate task manager entry 9=Meta+9
-activate widget 36=Alt+F1
+activate widget 68=Alt+F1
 clear-history=none
 clipboard_action=Ctrl+Alt+X
 cycleNextAction=none
@@ -241,9 +240,25 @@ show dashboard=Ctrl+F12
 show-barcode=none
 show-on-mouse-pos=none
 stop current activity=Meta+S
-switch to next activity=Meta+Ctrl+Down
-switch to previous activity=Meta+Ctrl+Up
+switch to next activity=Meta+Ctrl+J; Meta+Ctrl+Down
+switch to previous activity=Meta+Ctrl+K; Meta+Ctrl+Up
 toggle do not disturb=none
+
+[pycharm.desktop][Global Shortcuts]
+_launch=none
+
+[systemsettings.desktop][Global Shortcuts]
+_launch=Tools
+
+[wacomtablet][Global Shortcuts]
+Map to fullscreen=Meta+Ctrl+F
+Map to screen 1=Meta+Ctrl+1
+Map to screen 2=Meta+Ctrl+2
+Next Profile=Meta+Ctrl+N
+Previous Profile=Meta+Ctrl+P
+Toggle screen map selection=Meta+Ctrl+M
+Toggle stylus mode=Meta+Ctrl+S
+Toggle touch tool=Meta+Ctrl+T
 
 [yakuake][Global Shortcuts]
 toggle-window-state=F12
